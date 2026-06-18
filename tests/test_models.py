@@ -12,11 +12,6 @@ from models.task import Task
 from models.project import Project
 from models.user import User
 
-
-# ---------------------------------------------------------------------------
-# Task tests
-# ---------------------------------------------------------------------------
-
 class TestTask:
     def test_default_status_is_pending(self):
         task = Task("Write docs")
@@ -59,11 +54,6 @@ class TestTask:
     def test_str_shows_circle_when_pending(self):
         task = Task("Deploy")
         assert "○" in str(task)
-
-
-# ---------------------------------------------------------------------------
-# Project tests
-# ---------------------------------------------------------------------------
 
 class TestProject:
     def test_new_project_has_no_tasks(self):
@@ -153,11 +143,6 @@ class TestUser:
         assert restored.name == "Sam"
         assert restored.email == "sam@test.com"
         assert restored.project_count == 1
-
-
-# ---------------------------------------------------------------------------
-# Inheritance / OOP tests
-# ---------------------------------------------------------------------------
 
 class TestInheritance:
     def test_user_is_subclass_of_person(self):

@@ -1,6 +1,19 @@
 [
     {
         "name": "Alex",
-        "projects": []
+        "projects": [
+            {
+                "title": "CLI Tool",
+                "description": "",
+                "due_date": "",
+                "tasks": [
+                    {
+                        "title": "Implement add-task",
+                        "status": "pending",
+                        "assigned_to": "Unassigned"
+                    }
+                ]
+            }
+        ]
     }
 ]

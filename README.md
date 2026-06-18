@@ -6,8 +6,7 @@ A command-line tool for managing users, projects, and tasks — built with Pytho
 
 ```bash
 # Clone the repo
-git clone <your-repo-url>
-cd project_mgr
+git clone git@github.com:njagihcecil-cpu/Summative-Lab-Python-Project-Management-CLI-Tool-.git
 
 # Install dependencies
 pip install -r requirements.txt
